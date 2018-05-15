@@ -1,0 +1,14 @@
+//  Declaração  das variáveis
+$primary:   #030418;
+$body-bg:   #121420;
+$success:   #964588;
+
+
+.scrollspySite{
+    position:   relative;
+    overflow:   auto;
+    height:     350px;
+}
+
+// Importação do Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
