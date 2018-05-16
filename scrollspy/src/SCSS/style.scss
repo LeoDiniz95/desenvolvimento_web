@@ -10,5 +10,10 @@ $success:   #964588;
     height:     350px;
 }
 
+//ESCONDENDO A SCROLLBAR
+::-webkit-scrollbar{
+    display: none;
+}
+
 // Importação do Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";

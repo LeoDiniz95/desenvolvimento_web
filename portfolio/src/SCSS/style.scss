@@ -1,0 +1,42 @@
+//  Declaração  das variáveis
+$primary:           #F86037;
+$secondary:         #DB0A5B;
+$body-bg:           #CE1126;
+$success:           #F62459;
+$card-bg:           #B8CACD!important;
+$enable-gradients:  true!important;
+
+
+/*********  CLASSES  ************/
+.jumbotron {
+    background-color: #F62459!important;
+}
+
+.scrollspySite{
+    position:   relative;
+    overflow:   auto;
+    height:     100vh;
+}
+
+.centered {
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+/*******      IDS           ******/
+#home{
+    text-align: center;
+    align-content: center;
+}
+
+#navbarSite{
+    text-align: center;
+}
+
+//ESCONDENDO A SCROLLBAR
+::-webkit-scrollbar{
+    display: none;
+}
+
+// Importação do Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
