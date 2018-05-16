@@ -1,11 +1,19 @@
 //  Declaração  das variáveis
 $primary:           #F86037;
 $secondary:         #DB0A5B;
-$body-bg:           #CE1126;
+//$body-bg:           #CE1126;
 $success:           #F62459;
 $card-bg:           #B8CACD!important;
 $enable-gradients:  true!important;
 
+
+body{
+    background-image: radial-gradient(
+        circle at top left,
+        #F7CA18,
+        #CE1126
+    );
+}
 
 /*********  CLASSES  ************/
 .jumbotron {
