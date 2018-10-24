@@ -1,0 +1,98 @@
+#corpo {
+	float:none;
+	height:auto;
+	margin:10px 0 10px -480px;
+	width:900px;
+	left:50%;
+	right:50%;
+	position:absolute;
+}
+
+
+
+#header{
+	background-color:#FF0000;
+	height:144px;
+	width:900px;
+	background-image:url(../img/Header-1.jpg);
+
+
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	left: 10px;
+	
+}
+
+
+#menu ul {
+			padding:0px;
+			margin:0px;
+			float: left;
+			Width:900px;
+			background-image:url(../img/menu.jpg);
+			list-style:none;
+			font:100% Tahoma;	
+					
+		}
+ 
+		#menu ul li { 
+						display: block; 
+					}
+ 
+		#menu ul li a {
+			color: #fff;
+			text-decoration: none;
+			padding: 7px 50px;
+			float:left;	
+			margin-left: 51px;
+			
+			
+		}
+ 
+		#menu ul li a:hover {	
+			
+			background-image:url(../img/menu-hover.jpg);
+			
+		}
+
+#content {
+	background-color:#666666;
+	float: none;
+	height: 600px;
+	width: 900px;
+	top: 230px;
+	left: 10px;
+	overflow:auto;
+}
+
+#footer{
+	background-image:url(../img/footer.jpg);
+	float:left;
+	height:40px;
+	width:900px;
+	
+}
+
+#login{
+		float:right;
+		height:100px;
+		width:250px;
+		color: #fff;
+		-moz-border-radius:8px;
+		-webkit-border-radius:8px;
+		border-radius:8px;
+		right 10px;
+		
+		margin:20px;
+		
+	}
+	
+	
+#form1 table tr td p strong em {
+	text-align: justify;
+}
+
+#form1 table tr td p strong em {
+	text-align: center;
+}
