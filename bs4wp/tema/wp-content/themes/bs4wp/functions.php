@@ -20,4 +20,12 @@ if(!function_exists('_wp_render_title_tag')) {
 
 }
 
+//Registra o Custom navigation walker
+require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+
+//Registrando os menus
+register_nav_menus( array(
+    'principal' => __('Menu principal','bs4wp')
+));
+
 ?>
