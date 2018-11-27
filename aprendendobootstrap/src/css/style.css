@@ -1,6 +1,11 @@
 .jumbotron {
   background-color: #ECEBF2 !important; }
 
+.form {
+  background-color: #ECEBF2;
+  padding: 10px;
+  min-width: 40%; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

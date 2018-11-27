@@ -7,5 +7,12 @@ $success:   #ECEBF2;
 .jumbotron {
     background-color: #ECEBF2!important;
 }
+
+.form{
+    background-color: #ECEBF2;
+    padding: 10px;
+    min-width: 40%;
+}
+
 // Importação do Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";
