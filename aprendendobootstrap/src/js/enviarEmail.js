@@ -1,17 +1,13 @@
 function Enviando(email, assunto,mensagem){
     Email.send(email,//remetente
-"to@them.com",//destinatário
+"email",//destinatário
 assunto,//assunto
 mensagem,//mensagem
 "smtp.yourisp.com",//servidor
-"username",
-"password");
+"contaServirdor",
+"senhaServidor");
 }
 
-
-/************************************
- *  Pegando informações dos campos  *
- ************************************/
 function enviarInfo(){
 
     var email;
